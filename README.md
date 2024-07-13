@@ -63,7 +63,6 @@ This application allows you to:
 <br>
 
 🛠 Frontend repository:
-To visit the backend repository, [Please Click Here](https://github.com/PierreBarba/ruby-on-rails-backEnd.git).
 
 <br>
 
@@ -71,9 +70,9 @@ To visit the backend repository, [Please Click Here](https://github.com/PierreBa
 
 ### Key Features <a name="key-features"></a>
 
-- Use Postgres database.
-- Use React to fetch the API
-- Use WebPack to pack the JavaScript code
+- Use Javascript.
+- Use Html
+- Use Css
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,10 +94,10 @@ To get a local copy up and running follow these simple example steps.
 
 you have to those tools in your local machine.
 
-- [ ] React
-- [ ] React Router Dom
-- [ ] Redux
-- [ ] GIT & GITHUB
+- [ ] Html
+- [ ] Css
+- [ ] Javascript
+- [ ] Git & Github
 - [ ] Any Code Editor (VS Code, Brackets, etc)
 
 ### Clone Repo
@@ -106,45 +105,17 @@ you have to those tools in your local machine.
 Clone the project using the following bash command in an appropriate location.
 
 ```bash
-  git clone https://github.com/PierreBarba/react-redux-frontend.git
+  git clone https://github.com/PierreBarba/FinTracker.git
 ```
 
 Go to the project directory.
 
 ```bash
-    cd react-redux-frontend
+    cd FinTracker.git
 ```
 
-### Getting Started with Create React App and Redux
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
-#### Available Scripts
-In the project directory, you can run:
-```bash
-  npm start
-```
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-```bash
-  npm test
-```
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-```bash
-  npm run build
-```
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-```bash
-  npm run eject
-```
 ### Learn More
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can learn more in the [Create React App documentation]
 
 <!-- AUTHORS -->
 
