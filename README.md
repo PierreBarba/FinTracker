@@ -4,9 +4,6 @@
   <img src="src/uild.png" alt="logo" width="340"  height="auto" />
   <br/><br/>
 
-  <h1><b> BuildDev </b></h1>
-
-  <br/>
 
 </div>
 
