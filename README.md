@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="src/uild.png" alt="logo" width="280"  height="auto" />
+  <img src="src/uild.png" alt="logo" width="340"  height="auto" />
   <br/><br/>
 
   <h1><b> BuildDev </b></h1>
