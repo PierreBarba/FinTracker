@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="web.png" alt="logo" width="280"  height="auto" />
+  <img src="src/uild.png" alt="logo" width="280"  height="auto" />
   <br/><br/>
 
   <h1><b> BuildDev </b></h1>
@@ -155,6 +155,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/PierreBarba) [![linkedin](https://img.shields.io/badge/PierreBarba-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jean-pierre-barba/)
 
+**Paul saenz sucre**
+[![portfolio](add your information paul please)]
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -169,7 +173,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/PierreBarba/Ruby-on-Rails-React/issues).
+Feel free to check the [issues page](https://github.com/PierreBarba/FinTracker/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,7 +190,6 @@ Give a ⭐️ if you like this project!
 ## 🔭Acknowledgments <a name="acknowledgements"></a>
 
 - My Family.
-- [Microverse](microverse.org)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
