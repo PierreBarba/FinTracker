@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Pierre este estilo es importante no modificar */
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.cta {
+  padding-top: 6.25rem 0;
+}
+
+.cta-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+
+.cta-btn {
+  overflow: hidden;
+  padding: 0 2.5rem;
+  border-radius: 50rem;
+  border-width: 2px solid #3182ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.cta-btn-caption {
+  color: #3182ff;
+}
