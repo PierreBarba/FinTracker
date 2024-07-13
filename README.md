@@ -4,7 +4,7 @@
   <img src="web.png" alt="logo" width="280"  height="auto" />
   <br/><br/>
 
-  <h1><b> Front-end React Redux </b></h1>
+  <h1><b> BuildDev </b></h1>
 
   <br/>
 
@@ -36,7 +36,7 @@
 
 This application allows you to:
 
-- See a random greeting
+- See about us company
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,9 +45,9 @@ This application allows you to:
 <details>
   <summary>Technology</summary>
   <ul>
-    <li>Ruby</li>
-    <li>Rails</li>
-    <li>PostgresSQL</li>
+    <li>Javascript</li>
+    <li>Html</li>
+    <li>Css</li>
   </ul>
 </details>
 
