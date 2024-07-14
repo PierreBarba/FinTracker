@@ -11,6 +11,7 @@
 
 body {
   background-color: white;
+  font-family: "Work Sans", sans-serif;
 }
 
 .cta {
@@ -19,7 +20,6 @@ body {
   justify-content: center;
   align-items: center;
   padding: 6.25rem 0;
-  font-family: "Work Sans", sans-serif;
 }
 
 .cta-text {
@@ -55,4 +55,108 @@ body {
 .cta-btn-caption {
   color: inherit;
   font-weight: 500;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24rem;
+  background-color: black;
+  color: white;
+}
+
+.footer-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-business {
+  width: 18rem;
+}
+
+.footer-logo {
+  width: 8rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-tagline {
+  width: 18rem;
+  opacity: 0.75;
+  margin-bottom: 2rem;
+}
+
+.footer-btn {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  border: 2px solid #777;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.footer-btn-caption {  
+  color: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.footer-btn:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.footer-btn:active {
+  color: white;
+}
+
+.footer-cont {  
+  display: flex;
+  padding: 4rem 3.5rem;
+}
+
+.footer-nav {
+  display: inline-block;
+  width: 13.75rem;
+}
+
+.footer-nav h6 {
+  letter-spacing: 2px;
+  opacity: 0.5;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.footer-nav ul {
+  font-size: 0.9rem;
+}
+
+.footer-nav li {
+  list-style: none;
+  padding: 0.25rem 0;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.75;
+}
+
+.footer-bar {
+  border-top: 1px solid #444;
+  padding: 1.5rem 0.75rem;
+  opacity: 0.75;
+}
+
+.copyright-note {
+  text-align: right;
+  font-size: 0.9rem;
 }
