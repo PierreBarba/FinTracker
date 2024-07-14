@@ -14,6 +14,61 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-image: url(./src/back_image.svg);
+  height: 100vh;
+}
+
+.hero-cont {
+  width: 75%;
+  text-align: center;
+}
+
+.hero-cont h1 {
+  margin-bottom: 3rem;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.hero-cont h5 {
+  color: #3182ff;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-btn {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0.825rem 2.5rem;
+  border-radius: 50rem;
+  border: 2px solid #3182ff;
+  background-color: transparent;
+  color: #3182ff;
+  text-decoration: none;
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.hero-btn:hover {
+  color: white;
+  background-color: #3182ff;
+  border-color: #3182ff;
+}
+
+.heroa-btn:active {
+  color: white;
+}
+
+.hero-btn-caption {
+  color: inherit;
+  font-weight: 500;
+}
+
 .cta {
   display: flex;
   flex-direction: column;
