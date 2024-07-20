@@ -266,74 +266,197 @@ footer {
   text-align: center;
   font-size:x-large;
   font-weight: bold;
-  font-family: Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .description {
   margin: 5px;
   text-align: center;
   font-size:large;
-  font-family: Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #4f4e4e;
 }
 
 .buttonProjects {
   text-align: center;
-  background-color: #e9f2ff; /* blanco */
-  color: rgb(0, 0, 0); /* Negro */
+  background-color: #e9f2ff; 
+  color: rgb(0, 0, 0); 
   font-size: 16px;
-  font-family: Arial, sans-serif; 
-  border: 2px solid rgb(50,131,255); /* Borde de 2px y color azul */
-  border-radius: 30px; /* Bordes redondeados con un radio de 5px */
-  width: 15vw; /* Ancho de 150px */
-  height: 5vh; /* Altura de 50px */
-  margin: 10px; /* Margen de 10px por todos los lados */
-  cursor: pointer; /* Cambia el cursor a una mano */
-  box-shadow: 2px 2px 5px rgb(50,131,255); /* Sombra con un ligero desenfoque */
+  font-family: "Work Sans", sans-serif;
+  border: 2px solid rgb(50,131,255); 
+  border-radius: 30px; 
+  width: 15vw; 
+  height: 5vh; 
+  margin: 10px; 
+  cursor: pointer; 
+  box-shadow: 2px 2px 5px rgb(50,131,255); 
   transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out, box-shadow .2s ease-in-out;
 }
 
 .buttonProjects:hover {
-  background-color:rgb(50,131,255); /* Color de fondo más oscuro al pasar el ratón */
+  background-color:rgb(50,131,255); 
   color:#e9f2ff;
 }
 
 .buttonProjects:active {
-  background-color: rgb(50,131,255); /* Color de fondo aún más oscuro al hacer clic */
-  transform: scale(0.97); /* Reduce ligeramente el tamaño */
+  background-color: rgb(50,131,255); 
+  transform: scale(0.97); 
   color: #e9f2ff;
 }
 
 .buttonProjects:focus {
-  outline: none; /* Elimina el contorno predeterminado */
-  box-shadow: 0 0 5px rgb(50,131,255); /* Añade una sombra de enfoque */
+  outline: none; 
+  box-shadow: 0 0 5px rgb(50,131,255); 
 }
 
 .buttonProjects:disabled {
-  background-color: #ccc; /* Fondo gris */
-  color: #666; /* Texto gris claro */
-  cursor: not-allowed; /* Cursor de no permitido */
+  background-color: #ccc; 
+  color: #666; 
+  cursor: not-allowed; 
 }
 
 .imgProjects {
-  display: block; /* Evita el espacio debajo de la imagen */
+  display: block; 
 }
 
 .check {
   position: absolute;
-  top: -3vh; /* Ajusta según tu necesidad */
-  left: 2vw; /* Ajusta según tu necesidad */
-  background-color: rgb(255, 255, 255); /* Fondo semitransparente opcional */
-  color: rgb(0, 0, 0); /* Color del texto del botón */
+  top: -3vh;
+  left: 2vw;
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
   border: 4px solid rgb(255, 192, 1);
-  padding: 10px; /* Ajusta según tu necesidad */
-  border-radius: 30px; /* Opcional: bordes redondeados */
-  font-family: Arial, sans-serif;
+  padding: 10px; 
+  border-radius: 30px; 
+  font-family: "Work Sans", sans-serif;
   font-weight: bold;
   font-size:medium;
 }
 
 .rocket-icon {
-  font-size: 2rem; /* Tamaño del ícono */
-  color: #3182ff; /* Color del ícono */
+  font-size: 2rem; 
+  color: #3182ff; 
+}
+/* ------------------------>       texto arriba cards    <---------------------------- */
+.contSubServ{
+  display: flex;
+  flex-direction: column;
+  margin: 9rem 30px 30px 30px;
+}
+
+.subServ {
+  margin: 0px 0px 0px 30px;
+  font-weight: bolt;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5rem;
+}
+
+.textSubServ {
+  margin: 20px 0px 10px 30px;
+  color: #999;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+
+/* ------------------------>       cards style           <---------------------------- */
+
+#cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 0rem 0rem 0rem;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.card {
+  border: 2px solid transparent; 
+  border-radius: 24px 24px 0px 0px;
+  padding: 0rem 0rem 1rem 0rem;
+  background: #f6f9fc;
+  width: 25vw;
+  height: 100%; 
+  text-align: center;
+  border-image: linear-gradient(to bottom, #ffffff, #e9f4ff, #dcedfe, #a8d3ff); 
+  border-image-slice: 1; 
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  border-radius: 8px 8px 0 0;
+
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* estilo primeras cards */
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 24px 24px 0 0;
+  border-bottom: 2px solid #f6f9fc;
+  transition: transform 0.3s;
+}
+
+/* Estilos específicos para cada imagen */
+.image-1 {
+  /* Estilos específicos para la primera imagen */
+  border: 2px solid #333; 
+}
+
+.image-2 {
+  /* Estilos específicos para la segunda imagen */
+  border: 2px solid #ffffff; 
+}
+
+.image-3 {
+  /* Estilos específicos para la tercera imagen */
+  border: 2px solid #999; 
+}
+
+/* estilo texto primeras cards */
+.card-text {
+  font-weight: bold;
+  margin-top: 10px; 
+  font-size: medium; 
+  color: #333;
+  line-height: 1.4; 
+  padding: 0 10px; 
+  text-align: center; 
+  font-family: "Work Sans", sans-serif; 
+  position: relative;
+  display: inline-block; 
+}
+
+/* Estilo para la línea */
+.card-text::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #007bff;
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  transform: scaleX(0); 
+  transform-origin: left;
+  transition: transform 0.4s ease; 
+}
+
+.card-text:hover {
+  color: #007bff; 
+  cursor: pointer; 
+}
+
+.card-text:hover::after {
+  transform: scaleX(1); 
+  transform-origin: right;
 }
