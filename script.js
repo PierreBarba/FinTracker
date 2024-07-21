@@ -41,11 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   const secondCardImage = document.querySelector('#image-2');
   if(secondCardImage){
-    secondCardImage.src = './src/blog-2.jpg';
+    secondCardImage.src = './src/blog-1.jpg';
   }
   const thirdCardImage = document.querySelector('#image-3');
   if(thirdCardImage){
-    thirdCardImage.src = './src/blog-3.jpg';
+    thirdCardImage.src = './src/blog-1.jpg';
   }
 });
 
