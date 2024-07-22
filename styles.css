@@ -215,3 +215,263 @@ footer {
   text-align: right;
   font-size: 0.9rem;
 }
+
+/* ------------------------------->        sección seo style        <---------------------------------- */
+
+.Cont {
+  width: 90%;
+  padding: 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.column {
+  display: flex; 
+  height: 85vh;
+  gap: 20px; 
+  padding: 40px 50px 105px 50px;
+  background-color: #e9f2ff;
+}
+
+.img {
+  flex: 1;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+}
+
+.imgProjects {
+  width: 50vw;
+}
+
+.text {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2 { 
+  padding: 10px;
+}
+
+.subTitle {
+  margin: 5px;
+  text-align: center;
+  font-size:x-large;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+}
+
+.description {
+  margin: 5px;
+  text-align: center;
+  font-size:large;
+  font-family: "Work Sans", sans-serif;
+  color: #4f4e4e;
+}
+
+.buttonProjects {
+  text-align: center;
+  background-color: #e9f2ff; 
+  color: rgb(0, 0, 0); 
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  border: 2px solid rgb(50,131,255); 
+  border-radius: 30px; 
+  width: 15vw; 
+  height: 5vh; 
+  margin: 10px; 
+  cursor: pointer; 
+  box-shadow: 2px 2px 5px rgb(50,131,255); 
+  transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.buttonProjects:hover {
+  background-color:rgb(50,131,255); 
+  color:#e9f2ff;
+}
+
+.buttonProjects:active {
+  background-color: rgb(50,131,255); 
+  transform: scale(0.97); 
+  color: #e9f2ff;
+}
+
+.buttonProjects:focus {
+  outline: none; 
+  box-shadow: 0 0 5px rgb(50,131,255); 
+}
+
+.buttonProjects:disabled {
+  background-color: #ccc; 
+  color: #666; 
+  cursor: not-allowed; 
+}
+
+.imgProjects {
+  display: block; 
+}
+
+.check {
+  position: absolute;
+  top: -3vh;
+  left: 2vw;
+  background-color: rgb(255, 255, 255); 
+  color: rgb(0, 0, 0); 
+  border: 4px solid rgb(255, 192, 1);
+  padding: 10px; 
+  border-radius: 30px; 
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size:medium;
+}
+
+.rocket-icon {
+  font-size: 2rem; 
+  color: #3182ff; 
+}
+
+/* ------------------------>       sección de rango de servicio   <---------------------------- */
+
+/* ------------------------>       texto arriba cards    <---------------------------- */
+.contSubServ{
+  display: flex;
+  flex-direction: column;
+  margin: 9rem 30px 30px 30px;
+}
+
+.subServ {
+  margin: 0px 0px 0px 30px;
+  font-weight: bolt;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5rem;
+}
+
+.textSubServ {
+  margin: 20px 0px 10px 30px;
+  color: #999;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+
+/* ------------------------>       cards style           <---------------------------- */
+
+#cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 0rem 0rem 0rem;
+  justify-content: center;
+  gap: 5rem;
+  margin: 0px 0px 200px 0px;
+}
+
+.card {
+  border: 2px solid transparent; 
+  border-radius: 24px 24px 0px 0px;
+  padding: 0rem 0rem 1rem 0rem;
+  background: #f6f9fc;
+  width: 25vw;
+  height: 100%; 
+  text-align: center;
+  border-image: linear-gradient(to bottom, #ffffff, #e9f4ff, #dcedfe, #a8d3ff); 
+  border-image-slice: 1; 
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  border-radius: 8px 8px 0 0;
+
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* estilo primeras cards */
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 24px 24px 0 0;
+  border-bottom: 2px solid #f6f9fc;
+  transition: transform 0.3s;
+}
+
+/* Estilos específicos para cada imagen */
+.image-1 {
+  /* Estilos específicos para la primera imagen */
+  border: 2px solid #333; 
+}
+
+.image-2 {
+  /* Estilos específicos para la segunda imagen */
+  border: 2px solid #ffffff; 
+}
+
+.image-3 {
+  /* Estilos específicos para la tercera imagen */
+  border: 2px solid #999; 
+}
+
+/* estilo texto primeras cards */
+.card-text {
+  font-weight: bold;
+  margin-top: 10px; 
+  font-size: medium; 
+  color: #333;
+  line-height: 1.4; 
+  padding: 0 10px; 
+  text-align: center; 
+  font-family: "Work Sans", sans-serif; 
+  position: relative;
+  display: inline-block; 
+}
+
+/* Estilo para la línea */
+.card-text::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #007bff;
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+  transform: scaleX(0); 
+  transform-origin: left;
+  transition: transform 0.4s ease; 
+}
+
+.card-text:hover {
+  color: #007bff; 
+  cursor: pointer; 
+}
+
+.card-text:hover::after {
+  transform: scaleX(1); 
+  transform-origin: right;
+}
+
+/*     ---------------------------->     seccion projects       <------------------------------    */
+
+.projects{
+  display: flex;
+  height: 85vh;
+  gap: 20px;
+  padding: 40px 50px 105px 50px;
+  background-color: #e9f2ff;
+}
+
